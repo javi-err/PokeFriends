@@ -1,11 +1,9 @@
-.container {
-    display: inline-block;
-    width: 12rem;   
+.container {  
     border-radius: 1rem;
     padding: .5rem;
     text-align: center;
-    margin: 1rem;   
-    height: 15rem;
+    margin: 1rem;
+    height: 25rem;
 }
 
 .image-container {
@@ -21,4 +19,28 @@
 img {
     max-width: 100%;
     padding: 1.2rem;
+}
+
+.pokemon-stats {
+    padding: .5rem;
+}
+
+.stat-bar-container {
+    background-color: white;
+    border-radius: .5rem;
+    width: 100%;
+
+}
+
+.stat-bar-level {
+
+
+}
+
+.hp {
+
+}
+.stat-label {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
