@@ -1,43 +1,87 @@
 export const pokemon = [
     {
         id: 1,
-        name: 'bulbasaur',
-        type: 'Grass/Poison',
+        name: 'Bulbasaur',
+        imgURL:  require('./images/bulbasaur.png'),
+        type: ['Grass', 'Poision'],
         color: 'green',
         generation: 1,
-        category: 'Seed'
+        category: 'Seed',
+        ability: 'Overgrow',
+        hp: 45,
+        atk: 49,
+        def: 49, 
+        spatk: 65,
+        spdef: 65,
+        spd: 45,
+        total: 318
+
     },
     {
         id: 4,
         name: 'charmander',
+        imgURL: require('./images/charmander.png'),
         type: 'Fire',
         color: 'red',
         generation: 1,
-        category: 'Lizard'
+        category: 'Lizard',
+        ability: 'Overgrow',
+        hp: 45,
+        atk: 49,
+        def: 49, 
+        spatk: 65,
+        spdef: 65,
+        spd: 45,
+        total: 318
     },
     {
         id: 7,
         name: 'squirtle',
         type: 'Water',
         color: 'blue',
+        category: 'Tiny Turtle',
         generation: 1,
-        category: 'Tiny Turtle'
+        ability: 'Overgrow',
+        hp: 45,
+        atk: 49,
+        def: 49, 
+        spatk: 65,
+        spdef: 65,
+        spd: 45,
+        total: 318
     },
     {
         id: 25,
         name: 'pikachu',
         type: 'Electric',
         color: 'yellow',
+        category: 'Mouse',
         generation: 1,
-        category: 'Mouse'
+        ability: 'Overgrow',
+        hp: 45,
+        atk: 49,
+        def: 49, 
+        spatk: 65,
+        spdef: 65,
+        spd: 45,
+        total: 318
+      
     },
     {
         id: 133,
         name: 'eevee',
         type: 'Normal',
         color: 'gray',
+        category: 'Evolution',
         generation: 1,
-        category: 'Evolution'
+        ability: 'Overgrow',
+        hp: 45,
+        atk: 49,
+        def: 49, 
+        spatk: 65,
+        spdef: 65,
+        spd: 45,
+        total: 318
     },
     {
         id: 150,
@@ -45,6 +89,15 @@ export const pokemon = [
         type: 'Psychic',
         color: 'purple',
         generation: 1,
-        category: 'Genetic'
+        category: 'Genetic',
+        ability: 'Overgrow',
+        hp: 45,
+        atk: 49,
+        def: 49, 
+        spatk: 65,
+        spdef: 65,
+        spd: 45,
+        total: 318
+        
     }
 ]
